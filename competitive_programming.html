@@ -7,7 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
     <title>Competitive Programming</title>
 
   </head>
@@ -38,7 +39,18 @@
     </nav>
     
     <div class="container mt-4">
-
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Contest</th>
+                    <th scope="col">Rank</th>
+                    <th scope="col">Rating Change</th>
+                </tr>
+            </thead>
+            <tbody class="contestData">
+            </tbody>
+        </table>
     </div>
 
     <!-- Optional JavaScript -->
